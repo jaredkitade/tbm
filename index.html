@@ -3,12 +3,146 @@
 <html>
 
 <head>
-	<title>Free Tickets</title>
+	<title>Banana Fair</title>
 	<meta charset="utf-8"> 
+
+	<style>
+		#container {
+			width: 1184px;
+			height:139px;
+			padding-top: 175px;
+			margin: 0 auto;
+
+		}
+		.letter {
+			width: 104px;
+			height:139px;
+			display: inline-block;
+			position: relative;
+		}
+	</style>
 </head>
 
 <body>
-	Banana Fair
+	<!-- 
+	<div id='container'>
+		<div class='letter list-one'><img src="b.gif"></div>
+		<div class='letter list-two'><img src="a.gif"></div>
+		<div class='letter list-three'><img src="n.gif"></div>
+		<div class='letter list-four'><img src="a2.gif"></div>
+		<div class='letter list-five'><img src="n2.gif"></div>
+		<div class='letter list-six'><img src="a3.gif"></div>
+		<div class='letter'></div>
+		<div class='letter list-seven'><img src="f.gif"></div>
+		<div class='letter list-eight'><img src="a4.gif"></div>
+		<div class='letter list-nine'><img src="i.gif"></div>
+		<div class='letter list-ten'><img src="r.gif"></div>
+	</div>
+ -->
+	<div id='container'>
+		<div class='letter list-one'><img src="5b.gif"></div>
+		<div class='letter list-two'><img src="5a.gif"></div>
+		<div class='letter list-three'><img src="5n.gif"></div>
+		<div class='letter list-four'><img src="5a2.gif"></div>
+		<div class='letter list-five'><img src="5n2.gif"></div>
+		<div class='letter list-six'><img src="5a3.gif"></div>
+		<div class='letter'></div>
+		<div class='letter list-seven'><img src="5f.gif"></div>
+		<div class='letter list-eight'><img src="5a4.gif"></div>
+		<div class='letter list-nine'><img src="5i.gif"></div>
+		<div class='letter list-ten'><img src="5r.gif"></div>
+	</div>
+<!-- 	<div class="button-container">
+		<button class="button">Try Again</button>
+	</div> -->
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
 
+			var one = [
+				"b.gif",
+				"a2.gif"
+			];
+
+			var two = [
+				"<img src="a.gif">"
+			];
+
+			var three = [
+				"<img src="n.gif">"
+			];
+
+			var four = [
+				"<img src="a2.gif">"
+			];
+
+			var five = [
+				"<img src="n2.gif">"
+			];
+
+			var six = [
+				"<img src="a3.gif">"
+			];
+
+			var seven = [
+				"<img src="f.gif">"
+			];
+
+			var eight = [
+				"<img src="a4.gif">"
+			];
+
+			var nine = [
+				"<img src="i.gif">"
+			];
+
+			var ten = [
+				"<img src="r.gif">"
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+				var selected_five = select_random(five);
+				var selected_six = select_random(six);
+				var selected_seven = select_random(seven);
+				var selected_eight = select_random(eight);
+				var selected_nine = select_random(nine);
+				var selected_ten = select_random(ten);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+				$('.list-three').html(selected_three);
+			    $('.list-four').html(selected_four);
+				$('.list-five').html(selected_one);
+				$('.list-six').html(selected_two);
+				$('.list-seven').html(selected_three);
+			    $('.list-eight').html(selected_four);
+				$('.list-nine').html(selected_one);
+				$('.list-ten').html(selected_two);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
 </html>
