@@ -1,0 +1,64 @@
+#container {
+			width: 1200px;
+			height:auto;
+/*			padding-top: 175px;
+*/			margin: 0 auto;
+			margin-top: 40px;
+
+		}
+		#banana {
+			width: 1200px;
+			height: 267px;
+			margin-bottom: 10px;
+		}
+		#fair {
+			width: 800px;
+			height: 267px;
+			margin-top: 20px;
+			margin: 0 auto;
+		}
+		.letter {
+			width: 200px;
+			height:267px;
+			float: left;
+			position: relative;
+		}
+		#nav-bar {
+			width: 200px;
+			height:auto;
+			margin:0 auto;
+			margin-top: 70px;
+		}
+		#nav-button1 {
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:3px solid pink;
+			margin-right: 20px;
+			float:left;
+		}
+		#nav-button2 {
+			width:20px;
+			height:20px;
+			background:red;
+			border:3px solid black;
+			margin-right: 20px;
+			float:left;
+		}
+		#nav-button3 {
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:2px solid black;
+			margin-right: 20px;
+			float:left;
+			background-image: url('smile.png');
+		}
+		#nav-button4 {
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:1px solid red;
+			margin-right: 20px;
+			float:left;
+		}
