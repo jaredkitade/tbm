@@ -23,6 +23,10 @@
 			float: left;
 			position: relative;
 		}
+		.letter img {
+			width:200px;
+			height:auto;
+		}
 		#nav-bar {
 			width: 200px;
 			height:auto;
