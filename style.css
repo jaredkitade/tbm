@@ -1,4 +1,7 @@
-#container {
+		body {
+			background: #f9f9f9;
+		}
+		#container {
 			width: 1200px;
 			height:auto;
 /*			padding-top: 175px;
