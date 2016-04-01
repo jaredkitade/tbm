@@ -1,40 +1,44 @@
 		body {
 			background: #f9f9f9;
+			overflow-x:hidden;
 		}
 		#container {
-			width: 1200px;
+			width: 100%;
 			height:auto;
 /*			padding-top: 175px;
 */			margin: 0 auto;
-			margin-top: 40px;
+			margin-top: 30px;
 
 		}
 		#banana {
-			width: 1200px;
-			height: 267px;
+			width: 1500px;
+			height: 333px;
 			margin-bottom: 10px;
 		}
 		#fair {
-			width: 800px;
-			height: 267px;
-			margin-top: 20px;
-			margin: 0 auto;
+			width: 1000px;
+			height: 333px;
+/*			margin-top: 20px;
+*/			margin: 0 auto;
 		}
 		.letter {
-			width: 200px;
-			height:267px;
+			width: 250px;
+			height:333px;
 			float: left;
 			position: relative;
+			margin-right: -15px;
 		}
 		.letter img {
-			width:200px;
+			width:250px;
 			height:auto;
 		}
 		#nav-bar {
 			width: 200px;
 			height:auto;
-			margin:0 auto;
-			margin-top: 70px;
+			position: fixed;
+			bottom:30px;
+			left:50%;
+			transform:translate(-50%,0);
 		}
 		#nav-button1 {
 			width:20px;

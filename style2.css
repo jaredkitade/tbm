@@ -1,0 +1,175 @@
+		body {
+			background: #f9f9f9;
+/*			overflow:hidden;
+*/		}
+		#container {
+			width:1330px;
+			height:100%;
+			position: relative;
+			margin: 0 auto;
+
+		}
+		#nav-bar {
+			width: 200px;
+			height:auto;
+			position: fixed;
+			bottom:30px;
+			left:50%;
+			transform:translate(-50%,0);
+		}
+		#nav-button1 {
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:3px solid pink;
+			margin-right: 20px;
+			float:left;
+		}
+		#nav-button2 {
+			width:20px;
+			height:20px;
+			background:yellow;
+			border:3px solid black;
+			margin-right: 20px;
+			float:left;
+		}
+		#nav-button3 {
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:2px solid black;
+			margin-right: 20px;
+			float:left;
+			background-image: url('smile.png');
+		}
+		#nav-button4 {
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:1px solid red;
+			margin-right: 20px;
+			float:left;
+		}
+		#b {
+			width:375px;
+			height:500px;
+			top:5px;
+			left:5px;
+		}
+		#a {
+			width:150px;
+			height: 200px;
+			top:5px;
+			left: 381px;
+		}
+		#n {
+			width:250px;
+			height: 333px;
+			top:5px;
+			left:532px;
+		}
+		#a2 {
+			width:315px;
+			height: 420px;
+			top:5px;
+			left:783px;
+		}
+		#n2 {
+			width:225px;
+			height: 300px;
+			top:5px;
+			left:1099px;
+		}
+		#f {
+			width:150px;
+			height: 200px;
+			top:206px;
+			left: 381px;
+		}
+		#a3 {
+			width:200px;
+			height: 267px;
+			top:339px;
+			left: 532px;
+		}
+		#a4 {
+			width:105px;
+			height: 140px;
+			top:426px;
+			left:783px;
+		}
+		#i {
+			width:209px;
+			height: 279px;
+			top:426px;
+			left:889px;
+		}
+		#r {
+			width:225px;
+			height: 300px;
+			left:1099px;
+			top:306px;
+		}
+		.letter {
+			position: absolute;
+		}
+
+		.letter img {
+			width: auto;
+			max-height: 100%;
+		}
+		/*#b img {
+			width:auto;
+			max-width: 70%;
+			height:auto;
+		}
+		#a img {
+			width:auto;
+			max-width: 20%;
+			height:auto;
+		}
+		#n img {
+			width:auto;
+			max-width: 50%;
+			height:auto;
+		}
+		#a2 img {
+			width:auto;
+			max-width: 30%;
+			height:auto;
+		}
+
+		#n2 img {
+			width:auto;
+			max-width: 20%;
+			height:auto;
+		}
+		#a3 img {
+			width:auto;
+			max-width: 10%;
+			height:auto;
+		}
+		
+		#f img {
+			width:auto;
+			max-width: 30%;
+			height:auto;
+		}
+		#a4 img {
+			width:auto;
+			max-width: 20%;
+			height:auto;
+		}
+		#i img {
+			width:auto;
+			max-width: 60%;
+			height:auto;
+		}
+
+		#r img {
+			width:auto;
+			max-width: 40%;
+			height:auto;
+		}*/
+
+
