@@ -59,10 +59,9 @@
 			float:left;
 		}
 		#nav-button3 {
-			width:20px;
-			height:20px;
+			width:27px;
+			height:27px;
 			border-radius: 50%;
-			border:2px solid black;
 			margin-right: 20px;
 			float:left;
 			background-image: url('images/smile.jpg');
