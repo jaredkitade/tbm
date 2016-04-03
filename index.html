@@ -5,55 +5,33 @@
 <head>
 	<title>Banana Fair</title>
 	<meta charset="utf-8"> 
-	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" type="text/css" href="style2.css"> 
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
 </head>
 
 <body>
-	
-	<!-- <div id='container'>
-		<div class='letter list-one'><img src="b.gif"></div>
-		<div class='letter list-two'><img src="a.gif"></div>
-		<div class='letter list-three'><img src="n.gif"></div>
-		<div class='letter list-four'><img src="a2.gif"></div>
-		<div class='letter list-five'><img src="n2.gif"></div>
-		<div class='letter list-six'><img src="a3.gif"></div>
-		<div class='letter'></div>
-		<div class='letter list-seven'><img src="f.gif"></div>
-		<div class='letter list-eight'><img src="a4.gif"></div>
-		<div class='letter list-nine'><img src="i.gif"></div>
-		<div class='letter list-ten'><img src="r.gif"></div>
-	</div>
-	 -->
-<!-- 	<div id='container'>
-		<div class='letter list-one'><img src="5b.gif"></div>
-		<div class='letter list-two'><img src="5a.gif"></div>
-		<div class='letter list-three'><img src="5n.gif"></div>
-		<div class='letter list-four'><img src="5a2.gif"></div>
-		<div class='letter list-five'><img src="5n2.gif"></div>
-		<div class='letter list-six'><img src="5a3.gif"></div>
-		<div class='letter'></div>
-		<div class='letter list-seven'><img src="5f.gif"></div>
-		<div class='letter list-eight'><img src="5a4.gif"></div>
-		<div class='letter list-nine'><img src="5i.gif"></div>
-		<div class='letter list-ten'><img src="5r.gif"></div>
-	</div>
- -->
 	<div id='container'>
-		<div id='banana'>
 			<div class='letter' id='b'></div>
 			<div class='letter' id='a'></div>
 			<div class='letter' id='n'></div>
 			<div class='letter' id='a2'></div>
 			<div class='letter' id='n2'></div>
 			<div class='letter' id='a3'></div>
-		</div>
-		<div id='fair'>
 			<div class='letter' id='f'></div>
 			<div class='letter' id='a4'></div>
 			<div class='letter' id='i'></div>
 			<div class='letter' id='r'></div>
-		</div>
+
+			<!-- <div class='letter' id='b'><img src="images/jared/b.gif"></div>
+			<div class='letter' id='a'><img src="images/jared/a.gif"></div>
+			<div class='letter' id='n'><img src="images/jared/n.gif"></div>
+			<div class='letter' id='a2'><img src="images/jared/a2.gif"></div>
+			<div class='letter' id='n2'><img src="images/jared/n2.gif"></div>
+			<div class='letter' id='a3'><img src="images/jared/a3.gif"></div>
+			<div class='letter' id='f'><img src="images/jared/f.gif"></div>
+			<div class='letter' id='a4'><img src="images/jared/a4.gif"></div>
+			<div class='letter' id='i'><img src="images/jared/i.gif"></div>
+			<div class='letter' id='r'><img src="images/jared/r.gif"></div> -->
 	</div>
  
  	<div id='nav-bar'>
@@ -74,9 +52,7 @@
  		</a>
  	</div>
 </body>
-	
-
-		<script>
+	<script>
 		    var images = ['jared/b.gif', 'jared/a.gif', 'jared/n.gif', 'jared/a2.gif', 'jared/n2.gif', 'jared/a3.gif', 'jared/f.gif', 'jared/a4.gif', 'jared/i.gif', 'jared/r.gif', 'kyoka/b.gif', 'kyoka/a1.gif', 'kyoka/n.gif', 'kyoka/a2.gif', 'kyoka/n2.gif', 'kyoka/3a.gif', 'kyoka/f.gif', 'kyoka/4a.gif', 'kyoka/i.gif', 'kyoka/r.gif', 'laluna/b.gif', 'laluna/a.gif', 'laluna/n.gif', 'laluna/a2.gif', 'laluna/n2.gif', 'laluna/a3.gif', 'laluna/f.gif', 'laluna/a4.gif', 'laluna/i.gif', 'laluna/r.gif'];
 		    $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#b');
 		</script>
