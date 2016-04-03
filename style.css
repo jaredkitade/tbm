@@ -69,14 +69,16 @@
 
 		}
 		#nav-button4 {
-			width:18px;
-			height:18px;
+			width:17px;
+			height:17px;
 			border-radius: 50%;
-			border:1px solid black;
+			border:3px solid black;
 			margin-right: 20px;
 			float:left;
 			font-size: 12px;
-			padding: 2px;
+			text-align: center;
+			vertical-align: middle;
+			display: table-cell;
 		}
 		#nav-button5 {
 			width:20px;

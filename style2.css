@@ -43,12 +43,16 @@
 			background-size: 25px;
 		}
 		#nav-button4 {
-			width:20px;
-			height:20px;
+			width:17px;
+			height:17px;
 			border-radius: 50%;
-			border:1px solid red;
+			border:3px solid black;
 			margin-right: 20px;
 			float:left;
+			font-size: 12px;
+			text-align: center;
+			vertical-align: middle;
+			display: table-cell;
 		}
 		#nav-button5 {
 			width:20px;
